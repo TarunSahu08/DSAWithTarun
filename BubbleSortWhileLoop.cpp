@@ -27,10 +27,8 @@ int main() {
                 swap(arr[j], arr[j+1]);
                 isSwapped = true;
             }
-
             j++;
         }
-
         i++;
 
         if(!isSwapped) 
